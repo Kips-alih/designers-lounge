@@ -6,11 +6,9 @@
 * [Hawa](https://github.com/Hawa-Evakali)
 * [Alphonce](https://github.com/Kips-alih) ,September 2021
 ## Description.
-This is a website
-## Landing page
-
+A website where a client can access different designers and interior designs for his/her space and has a privilege of customizing and describing his/ her own idea on how they would like there space to look like.
 ## Setup/Installation Instructions.
-To access the landing page.
+To access the website.
 * Click the [gh-pages](https://kips-alih.github.io/designer-lounge/) link.
 
 To acces this project, you need to clone it using these steps;
