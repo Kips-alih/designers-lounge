@@ -1,0 +1,22 @@
+header{
+    background-color: #0E7190;
+
+}
+.nav-link{
+    color: white;
+}
+#btn a{
+    text-decoration: none;
+}
+footer{
+    background-color: #0E7190;
+}
+.designer{
+    color: white;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
