@@ -1,0 +1,33 @@
+
+header{
+  background-color: #0E7190;
+
+}
+.nav-link{
+  color: white;
+}
+#btn a{
+  text-decoration: none;
+}
+footer{
+  background-color: #0E7190;
+}
+.designer{
+  color: white;
+}
+h3{
+  text-transform: capitalize;
+}
+input#comment{
+  height: 200px;
+}
+input.form-control{
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
