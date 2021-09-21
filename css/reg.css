@@ -11,6 +11,11 @@
     background-repeat: no-repeat;
     position: absolute;
 }
+@media screen and (max-width: 400px) {
+    .hero {
+       background-image: none;
+    }
+  }
 .form-box{
     width: 400px;
     height: 500px;
@@ -106,3 +111,9 @@ span{
 #register{
     left: 450px;
 }
+
+@media screen and (max-width: 400px) {
+    .hero {
+       background-image: none;
+    }
+  }
