@@ -12,8 +12,8 @@
     position: absolute;
 }
 .form-box{
-    width: 380px;
-    height: 480px;
+    width: 400px;
+    height: 500px;
     position: relative;
     margin: 6% auto;
     background: #0E7190;
@@ -21,6 +21,7 @@
     box-shadow: 0 0 20px 9px #31509e;
     overflow: hidden;
 }
+
 .button-box{
     width: 220px;
     margin: 35px auto;
@@ -75,9 +76,12 @@
     outline: none;
     background: transparent;
 }
+.input-field::-webkit-input-placeholder {
+    color: white;
+  }
 .submit-btn{
-    width: 60%;
-    padding:10px 30px;
+    width: 100%;
+    padding:10px 20px;
     cursor: pointer;
     display: block;
     margin: auto;
@@ -85,15 +89,17 @@
     border: 0;
     outline: none;
     margin-top: 50px;
+
 }
 .checkbox{
-    margin: 30px 10px 30px 0px;
+    margin-top: 10px;
+   margin-right: 10px;
 }
 span{
-    color: #777;
+    color: white;
     font-size: 12px;
     bottom: 65px;
-    position: absolute;
+   
 }
 #login{
     left: 50px;
