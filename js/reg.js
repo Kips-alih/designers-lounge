@@ -14,3 +14,17 @@ function login(){
     mySign.style.left = "450px";
     logSign.style.left = "0px";
 }
+
+
+// redirect user
+function myFunction (){
+    var myUser = document.forms["myForm"]["uName"].value;
+    var myPassword = document.forms["myForm"]["pass"].value;
+    if(myUser == "admin" && myPassword == "1234")
+    {
+        window.location.href="index.html";
+    }
+    else{
+        alert("invalid username and password")
+    }
+}
