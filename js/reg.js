@@ -17,12 +17,25 @@ function login(){
 
 
 // redirect user
-function myFunction (){
+function myFunction(){
     var myUser = document.forms["myForm"]["uName"].value;
     var myPassword = document.forms["myForm"]["pass"].value;
-    if(myUser == "admin" && myPassword == "1234")
+    if(myUser === "Admin" && myPassword === "1234")
     {
         window.location.href="index.html";
+    }
+    else{
+        alert("invalid username and password")
+    }
+}
+
+function myAccount(){
+    var myUser = document.forms["myForm"]["uName"].value;
+    var myEmail = document.forms["myForm"]["uEmail"].value;
+    var myPassword = document.forms["myForm"]["pass"].value;
+    if(myUser === "Admin" && myEmail === "email" && myPassword === "1234")
+    {
+        window.location.href="Reg.html";
     }
     else{
         alert("invalid username and password")
