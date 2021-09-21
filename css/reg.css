@@ -93,13 +93,12 @@
 }
 .checkbox{
     margin-top: 10px;
-   margin-right: 10px;
+    margin-right: 10px;
 }
 span{
     color: white;
     font-size: 12px;
-    bottom: 65px;
-   
+    bottom: 50px;
 }
 #login{
     left: 50px;
