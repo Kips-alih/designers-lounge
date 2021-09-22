@@ -28,18 +28,18 @@
                 <img src="RegImages/livingroom.png" alt="" height="" width="">
                 <img src="RegImages/stairs.png" alt="" height="" width="">
             </div>
-            <form action="" class="input-group" id="login">
-                <input type="text" class="input-field" placeholder="Username" required>
-                <input type="password" class="input-field" placeholder="Password" required>
+            <form action="" class="input-group" name="myForm" id="login" method="POST">
+                <input type="text" name="uName" class="input-field" placeholder="Username" required>
+                <input type="password" name="pass" class="input-field" placeholder="Password" required>
                 <p><input type="checkbox" class="checkbox"><span>Forgot Password</span></p>
-                <button type="submit" class="submit-btn text-light">Login</button>
+                <button type="submit" name="log" class="submit-btn text-light" value="login" onclick="myFunction()">Login</button>
             </form>
-            <form action="" class="input-group" id="register">
-                <input type="text" class="input-field" placeholder="Username" required>
-                <input type="Email" class="input-field"   placeholder="Email Address" required>
-                <input type="password" class="input-field" placeholder="Password" required>
+            <form action="" class="input-group" name="myForm" id="register" method="POST">
+                <input type="text" name="uName" class="input-field" placeholder="Username" required>
+                <input type="Email" name="uEmail" class="input-field"   placeholder="Email Address" required>
+                <input type="password" name="pass" class="input-field" placeholder="Password" required>
                 <input type="checkbox" class="checkbox"><span>By clicking Sign Up you agree to the terms and conditions</span>
-                <button type="submit" class="submit-btn text-light">Sign Up</button>
+                <button type="submit" name="log" class="submit-btn text-light" value="login" onclick="myAccount()">Sign Up</button>
             </form>
         </div>
       
