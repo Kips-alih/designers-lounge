@@ -9,7 +9,7 @@
 A website where a client can access different designers and interior designs for his/her space and has a privilege of customizing and describing his/ her own idea on how they would like there space to look like.
 ## Setup/Installation Instructions.
 To access the website.
-* Click the [gh-pages](https://kips-alih.github.io/designer-lounge/) link.
+* Click the [gh-pages](https://kips-alih.github.io/designers-lounge/) link.
 
 To acces this project, you need to clone it using these steps;
 * Open your terminal command prompt for windows.
