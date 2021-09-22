@@ -19,7 +19,7 @@
         <div class="form-box">
             <div class="button-box">
                 <div id="btn"></div>
-                <button type="button" class="toggle-btn text-light" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn text-light" onclick="login()" id="logged">Login</button>
                 <button type="button" class="toggle-btn text-light" onclick="register()">Sign Up</button>
             </div>
             <div class="icons">
@@ -28,13 +28,13 @@
                 <img src="RegImages/livingroom.png" alt="" height="" width="">
                 <img src="RegImages/stairs.png" alt="" height="" width="">
             </div>
-            <form action="" class="input-group" name="myForm" id="login" method="POST">
+            <form action="index.html" class="input-group" name="myForm" id="login" method="POST">
                 <input type="text" name="uName" class="input-field" placeholder="Username" required>
                 <input type="password" name="pass" class="input-field" placeholder="Password" required>
                 <p><input type="checkbox" class="checkbox"><span>Forgot Password</span></p>
-                <button type="submit" name="log" class="submit-btn text-light" value="login" onclick="myFunction()">Login</button>
+                <button type="submit" name="log" class="submit-btn text-light" value="login" id="btnProcessRequest" onclick="myFunction()"> <a href="index.html">Login</a> </button>
             </form>
-            <form action="" class="input-group" name="myForm" id="register" method="POST">
+            <form action="reg.html" class="input-group" name="myForm" id="register" method="POST">
                 <input type="text" name="uName" class="input-field" placeholder="Username" required>
                 <input type="Email" name="uEmail" class="input-field"   placeholder="Email Address" required>
                 <input type="password" name="pass" class="input-field" placeholder="Password" required>
@@ -44,6 +44,8 @@
         </div>
       
     </div>
+    <script src="http://tristanedwards.me/u/SweetAlert/lib/sweet-alert.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/reg.js"></script>
 </body>

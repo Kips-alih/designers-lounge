@@ -15,13 +15,13 @@ function login(){
     logSign.style.left = "0px";
 }
 
-
-// redirect user
+ //redirect user
 function myFunction(){
     var myUser = document.forms["myForm"]["uName"].value;
     var myPassword = document.forms["myForm"]["pass"].value;
     if(myUser === "Admin" && myPassword === "1234")
-    {
+    {  
+        alert("Login successful")
         window.location.href="index.html";
     }
     else{
@@ -29,15 +29,4 @@ function myFunction(){
     }
 }
 
-function myAccount(){
-    var myUser = document.forms["myForm"]["uName"].value;
-    var myEmail = document.forms["myForm"]["uEmail"].value;
-    var myPassword = document.forms["myForm"]["pass"].value;
-    if(myUser === "Admin" && myEmail === "email" && myPassword === "1234")
-    {
-        window.location.href="Reg.html";
-    }
-    else{
-        alert("invalid username and password")
-    }
-}
+
