@@ -3,7 +3,7 @@
     }
     
     .nav-link {
-        color: white;
+        color: rgb(19, 7, 88);
     }
     
     #btn a {
@@ -51,7 +51,7 @@
     }
     
     body {
-        background-color: cornflowerblue;
+        background-color: rgb(14, 113, 131);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -69,15 +69,17 @@
         padding: 7px;
     }
     
-    .title {
+    .rex h1 {
         text-align: center;
-        text-decoration: snow;
+        text-decoration: rgb(254, 255, 250);
+        font-size: 100px;
+        font-style: "Brush Script MT" crusive;
     }
     
     .banner1 {
         background-image: url(../home-img/livingroom.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-size: auto;
+        background-repeat: repeat;
         height: 80vh;
         max-width: 100%;
         position: relative;
@@ -92,4 +94,37 @@
     
     .card {
         height: 20vh;
+    }
+    
+    .text h3 {
+        text-align: center;
+        color: rgb(5, 16, 54);
+        font-weight: 100;
+        font-style: arial;
+        text-indent: 50px;
+        font-size: 54px;
+    }
+    
+    .hey h1 {
+        text-align: center;
+        text-decoration: underline;
+        color: peachpuff;
+        font-size: 90px;
+        font-family: "Brush Script MT crusive";
+    }
+    
+    .words h2 {
+        text-align: center;
+        color: peachpuff;
+        font-size: 100px;
+    }
+    
+    .white h2 {
+        font-size: 50px;
+        color: rgb(190, 202, 202);
+    }
+    
+    .white h1 {
+        font-size: 50px;
+        color: rgb(19, 7, 88);
     }
