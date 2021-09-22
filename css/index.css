@@ -1,130 +1,223 @@
-    header {
-        background-color: #0E7190;
+@import url('');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #dae4ff;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: #dae4ff;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.head-nav {
+    width: 100%;
+    padding: 48px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 170px;
+    cursor: pointer;
+}
+
+button {
+    padding: 15px 40px;
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    background: rgb(15, 126, 177);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(22, 72, 180);
+}
+
+.menu-icon {
+    width: 50px;
+    margin-left: 30px;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgb(21, 24, 175);
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    background: white;
+    border: radius 15px;
+    overflow: hidden;
+}
+
+.col-1,
+.col-2 {
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
+.col-2 img {
+    width: 100%;
+}
+
+.col-1 {
+    padding: 8% 5%;
+    /* add position relative as ul is absolute*/
+    position: relative;
+}
+
+.col-1>h1 {
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    color: tomato;
+}
+
+.col-1>p {
+    color: violet;
+    line-height: 22px;
+    margin: 15px 0 30px;
+}
+
+.col-1>ul {
+    bottom: 30px;
+}
+
+.col-1>ul li {
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: #bfbfbf;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.zoom {
+    animation: zoomout 0.5s linear 1;
+}
+
+@keyframes zoomout {
+    0% {
+        transform: scale(1.2);
     }
-    
-    .nav-link {
-        color: rgb(19, 7, 88);
+    100% {
+        transform: scale(1);
     }
-    
-    #btn a {
-        text-decoration: none;
-    }
-    
-    footer {
-        background-color: #0E7190;
-    }
-    
-    .designer {
-        color: white;
-    }
-    
-    @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-        }
-    }
-    
-    .coloumn {
-        float: left;
-        width: 33.33;
-        padding: 5px;
-    }
-    
-    #portfolio {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-left: 16%;
-        font-family: 'Kaushan Script' cursive;
-    }
-    
-    .col-md-3 img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-    
-    .portfolio>h2 {
-        text-align: center;
-        padding-top: 40px;
-        font-family: 'Kaushan Script', crusive;
-        color: purple;
-    }
-    
-    body {
-        background-color: rgb(14, 113, 131);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .manual {
-        font-size: 10px;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .manual h2 {
-        font-size: 20px;
-        color: rebeccapurple;
-        margin: 5px;
-        padding: 7px;
-    }
-    
-    .rex h1 {
-        text-align: center;
-        text-decoration: rgb(254, 255, 250);
-        font-size: 20px;
-        font-style: "Brush Script MT" crusive;
-    }
-    
-    .banner1 {
-        background-image: url(../home-img/livingroom.jpeg);
-        background-size: auto;
-        background-repeat: repeat;
-        height: 80vh;
-        max-width: 100%;
-        position: relative;
-    }
-    
-    .centered {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .card {
-        height: 20vh;
-    }
-    
-    .text h3 {
-        text-align: center;
-        color: rgb(5, 16, 54);
-        font-weight: 100;
-        font-style: arial;
-        text-indent: 50px;
-        font-size: 30px;
-    }
-    
-    .hey h1 {
-        text-align: center;
-        text-decoration: underline;
-        color: peachpuff;
-        font-size: 20px;
-        font-family: "Brush Script MT crusive";
-    }
-    
-    .words h2 {
-        text-align: center;
-        color: peachpuff;
-        font-size: 10px;
-    }
-    
-    .white h2 {
-        font-size: 20px;
-        color: rgb(190, 202, 202);
-    }
-    
-    .white h1 {
-        font-size: 20px;
-        color: rgb(19, 7, 88);
-    }
+}
+
+header {
+    background-color: #0E7190;
+}
+
+.nav-link {
+    color: white;
+}
+
+#btn a {
+    text-decoration: none;
+}
+
+
+/*---services section---*/
+
+#services {
+    padding: 80px 0;
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+    background: #dae4ff;
+}
+
+.services h4 {
+    padding: 5px;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/*----about us section----*/
+
+#about-us {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#about-us>ul>li {
+    margin: 50px;
+    /*margin top and right is 10px and  left and right */
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#about-us>ul {
+    margin-left: 20px;
+}
+
+.about-us {
+    background: #dae4ff;
+}
+
+footer {
+    background-color: #0E7190;
+    height: 30vh;
+}
+
+.designer {
+    color: white;
+}
+
+.caption1 {
+    color: black;
+}
+
+.custitle {
+    color: white;
+}
+
+
+/* .{
+    background-image: url(/gal-images/interior\ 1.jpg);
+} */
+
+.board {
+    color: black;
+}
