@@ -23,10 +23,21 @@ function myFunction(){
     {  
         alert("Login successful")
         window.location.href="index.html";
-    }
+    } else if(myUser === "Customer" && myPassword === "1234")
+    {  
+        alert("Login successful")
+        window.location.href="index.html";
+    }  else if(myUser === "Designer" && myPassword === "1234")
+    {  
+        alert("Login successful")
+        window.location.href="index.html";
+    } 
     else{
         alert("invalid username and password")
     }
 }
+
+
+
 
 
