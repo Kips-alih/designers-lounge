@@ -57,13 +57,13 @@
     }
     
     .manual {
-        font-size: 20px;
+        font-size: 10px;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
     }
     
     .manual h2 {
-        font-size: 50;
+        font-size: 20px;
         color: rebeccapurple;
         margin: 5px;
         padding: 7px;
@@ -72,7 +72,7 @@
     .rex h1 {
         text-align: center;
         text-decoration: rgb(254, 255, 250);
-        font-size: 100px;
+        font-size: 20px;
         font-style: "Brush Script MT" crusive;
     }
     
@@ -102,29 +102,29 @@
         font-weight: 100;
         font-style: arial;
         text-indent: 50px;
-        font-size: 54px;
+        font-size: 30px;
     }
     
     .hey h1 {
         text-align: center;
         text-decoration: underline;
         color: peachpuff;
-        font-size: 90px;
+        font-size: 20px;
         font-family: "Brush Script MT crusive";
     }
     
     .words h2 {
         text-align: center;
         color: peachpuff;
-        font-size: 100px;
+        font-size: 10px;
     }
     
     .white h2 {
-        font-size: 50px;
+        font-size: 20px;
         color: rgb(190, 202, 202);
     }
     
     .white h1 {
-        font-size: 50px;
+        font-size: 20px;
         color: rgb(19, 7, 88);
     }
