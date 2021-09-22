@@ -93,3 +93,22 @@
     .card {
         height: 20vh;
     }
+    
+    .text {
+        text-align: center;
+        color: rgb(16, 48, 151);
+        font-weight: 100;
+        font-style: arial;
+        text-indent: 50px;
+    }
+    
+    .hey {
+        text-align: center;
+        text-decoration: underline;
+        color: peachpuff;
+    }
+    
+    .words {
+        text-align: center;
+        color: peachpuff;
+    }
