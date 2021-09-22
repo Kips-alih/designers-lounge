@@ -34,12 +34,11 @@ label{
   font-style: normal;
   font-family: 'Noto Sans JP', sans-serif;
 }
-input#comment{
-  height: 200px;
+#comment{
   color:black;
   font-weight: 700;
 }
-input.form-control{
+input.form-control, #comment{
   border-radius: 10px;
   border-color: teal;
   border-width: 2px;
