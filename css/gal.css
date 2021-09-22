@@ -10,6 +10,7 @@ header{
 }
 footer{
     background-color: #0E7190;
+   
 }
 .designer{
     color: white;
@@ -21,10 +22,48 @@ footer{
 .custitle{
     color: white;
 }
-.{
+/* .{
     background-image: url(/gal-images/interior\ 1.jpg);
-
+} */
+.board {
+    color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
