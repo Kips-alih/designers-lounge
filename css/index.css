@@ -69,9 +69,11 @@
         padding: 7px;
     }
     
-    .title {
+    .rex h1 {
         text-align: center;
         text-decoration: rgb(254, 255, 250);
+        font-size: 100px;
+        font-style: "Brush Script MT" crusive;
     }
     
     .banner1 {
@@ -94,22 +96,35 @@
         height: 20vh;
     }
     
-    .text {
+    .text h3 {
         text-align: center;
-        color: rgb(16, 48, 151);
+        color: rgb(5, 16, 54);
         font-weight: 100;
         font-style: arial;
         text-indent: 50px;
+        font-size: 54px;
     }
     
-    .hey {
+    .hey h1 {
         text-align: center;
         text-decoration: underline;
         color: peachpuff;
+        font-size: 90px;
+        font-family: "Brush Script MT crusive";
     }
     
-    .words {
+    .words h2 {
         text-align: center;
         color: peachpuff;
-        font-size: 150%;
+        font-size: 100px;
+    }
+    
+    .white h2 {
+        font-size: 50px;
+        color: rgb(190, 202, 202);
+    }
+    
+    .white h1 {
+        font-size: 50px;
+        color: rgb(19, 7, 88);
     }
