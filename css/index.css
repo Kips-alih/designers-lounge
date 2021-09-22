@@ -51,7 +51,7 @@
     }
     
     body {
-        background-color: cornflowerblue;
+        background-color: rgb(14, 113, 131);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -111,4 +111,5 @@
     .words {
         text-align: center;
         color: peachpuff;
+        font-size: 150%;
     }
