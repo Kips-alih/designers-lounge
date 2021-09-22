@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;500&family=Permanent+Marker&family=Righteous&family=Ubuntu:ital,wght@1,700&display=swap');
 header{
   background-color: #0E7190;
 
@@ -17,14 +17,36 @@ footer{
 }
 h3{
   text-transform: capitalize;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+}
+#about{
+  background-image: url("../about-img/contact.jpeg");
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+}
+label{
+  font-weight: 600;
+  color: blue;
+  font-style: normal;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 input#comment{
   height: 200px;
+  color:black;
+  font-weight: 700;
 }
 input.form-control{
   border-radius: 10px;
+  border-color: teal;
+  border-width: 2px;
   margin-top: 10px;
   margin-bottom: 10px;
+  background: transparent;
+  
 }
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
