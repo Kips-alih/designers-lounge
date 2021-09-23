@@ -14,9 +14,7 @@
     <div class="container-fluid">
       
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none px-5">
-            LOGO
-           </a>
+          <h2 style="color: white; font-style: italic; font-weight: 900;font-family: Impact;">Designers Lounge</h2>
     
           <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li><a href="index.html" class="nav-link px-5 link-secondary">Home</a></li>
@@ -134,7 +132,7 @@
         <div class="card mt-5 m-4" style="width: 18rem;">
           <img src="./gal-images/interior-1961070_1920.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Old school </h5>
+            <h5 class="card-title">Old school</h5>
             <p class="card-text"> leather arm chairs and old fashioned sofa lighting yellow dim with large amount of outdoor lighting.</p>
             <a href="#" class="btn btn-primary">pick design</a>
           </div>
@@ -142,6 +140,73 @@
       </div>
     </div>
    
+  </div>
+  <!-- form here -->
+  <div class="container-fluid mt-5 p-2" >
+    <div class="row">
+
+      <div class="col-md-6">
+        <form action="" class="card p-4">
+        <h3>Select design option:</h3>
+          <div class="input-group mt-3">
+            <select class="form-select" id="size">
+              <option selected>pick</option>
+              <option value="10000">VICTORIAN VINTAGE</option>
+              <option value="2000">Kitchen with dinning</option> design</option>
+              <option value="3000">kitchen</option>
+              <option value="3000">Offices</option>
+              <option value="3000">Whited</option>
+              <option value="3000">Old school</option>
+            </select>
+            <label class="input-group-text" for="inputGroupSelect02">design</label>
+          </div>
+       
+        <div class="input-group mt-3">
+          <select class="form-select" id="crust">
+            <option selected>Select your measurement</option>
+            <option value="150">10meters by 10meters</option>
+            <option value="50">20meters by 20 meters</option>
+            <option value="100">30 meters by 30 meters</option>
+          </select>
+          <label class="input-group-text" for="inputGroupSelect02">size</label>
+        </div>
+             <div class="button mt-3">
+              <button type="submit" class="btn btn-success" id="Add">Add To Cart</button>
+             </div>
+             </div>
+        </form>
+      </div>
+      <div class="col-md-6 table-section">
+        <div class="table ">
+     
+          <table class="col-lg-12 col-md-4 ">
+             
+            <tr>
+                <th>DESIGN</th>
+                <th>SIZE</th>
+                <th> PRICE</th>
+
+            </tr>
+            <tbody>
+    
+            </tbody>
+            
+          </table> 
+      </div>
+    </div>
+    </div>
+   
+
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 check">
+        <button class="btn bg-secondary" id="final"><strong>CHECK OUT</strong></button>
+      </div>
+      <div class="col-md-6 check" id="last">
+        <p class="pt-2"><strong>YOUR TOTAL PRICE IS :<p id="price"> </p> </strong></p>
+      </div>
+    </div>
   </div>
 
       <!--footer-->
