@@ -29,8 +29,13 @@ footer{
 .board {
     color: black;
 }
-
-
+.order{
+   justify-content: center;
+   margin-left: 30%;
+}
+#final{
+    margin-left: 40%;
+}
 
 
 
